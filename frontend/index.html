@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>alloys tensile strength</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<div class="bg-contact2" style="background-image: url('fimages/bg-01.jpg');">
+		<div class="container-contact2">
+			<div class="wrap-contact2">
+				<form class="contact2-form validate-form">
+					<span class="contact2-form-title">
+						Alloys Tensile Strength prediction
+						<hr style="width:100%", color=green> <br>
+						<p class="desc">NOTE: Enter the percentage af all the following elements as a floating point for example <br> 50% you can type it as 0.5 </p>
+					</span>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="C">
+						<span class="focus-input2" data-placeholder="Carbon"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Si">
+						<span class="focus-input2" data-placeholder="Silicon"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Mn">
+						<span class="focus-input2" data-placeholder="Manganese"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="P">
+						<span class="focus-input2" data-placeholder="Phosphorus"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="S">
+						<span class="focus-input2" data-placeholder="Sulfur"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Ni">
+						<span class="focus-input2" data-placeholder="Nickel"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Cr">
+						<span class="focus-input2" data-placeholder="Chromium"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Mo">
+						<span class="focus-input2" data-placeholder="Molybdenum"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Cu">
+						<span class="focus-input2" data-placeholder="Cobalt"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="V">
+						<span class="focus-input2" data-placeholder="Vanadium"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Al">
+						<span class="focus-input2" data-placeholder="Aluminum"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="N">
+						<span class="focus-input2" data-placeholder="Nitrogen"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Nb+Ta">
+						<span class="focus-input2" data-placeholder="Niobium + Tantalum"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="required">
+						<input class="input2" type="number" step="0.000001" name="Temperature(°C)">
+						<span class="focus-input2" data-placeholder="Temperature(°C)"></span>
+					</div>
+
+
+					<div class="container-contact2-form-btn">
+						<div class="wrap-contact2-form-btn">
+							<div class="contact2-form-bgbtn"></div>
+							<button class="contact2-form-btn">
+								Predict
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+
+</body>
+</html>
